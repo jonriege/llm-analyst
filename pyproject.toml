@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llm-analyst"
+version = "0.1.0"
+description = ""
+authors = ["Jon Riege"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+plotly = "^5.20.0"
+jupyter = "^1.0.0"
+pre-commit = "^3.7.0"
+tqdm = "^4.66.2"
+langgraph = "^0.0.65"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
